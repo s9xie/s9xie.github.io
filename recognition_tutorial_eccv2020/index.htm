@@ -1,0 +1,165 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0056)https://gkioxari.github.io/Tutorials/eccv2018/index.html -->
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-140259768-2"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-140259768-2');
+  </script>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+  <title>Tutorial</title>
+
+  <link rel="stylesheet" href="./Tutorial_files/bootstrap.min.css">
+  <link href="./Tutorial_files/css" rel="stylesheet" type="text/css">
+  <link href="./Tutorial_files/style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+<div class="container">
+  <table border="0" align="center">
+    <tbody><tr>
+      <td width="680" align="center" valign="middle"><h3>ICCV 2019 Tutorial on</h3>
+      <span class="title">Visual Recognition for Images, Video, and 3D</span></td>
+    </tr>
+    <tr>
+        <td colspan="3" align="center"><h3> Location: Auditorium <br><br> Monday, October 28 (full day), 2019 <br> </h3></td>
+    </tr>
+  </tbody></table>
+  <p><img src="./Tutorial_files/teaser_cvpr19.jpg" height="180" align="middle"></p>
+  <p>
+  <img src="./Tutorial_files/slowfast_output.gif" height="190" align="middle">
+  <img src="./Tutorial_files/teaser_iccv19_2.jpg" height="190" align="middle">
+
+</div>
+
+<br>
+
+<div class="container">
+  <h2>Organizers</h2>
+    <div>
+
+      <div class="instructor">
+        <a href="http://vcl.ucsd.edu/~sxie/">
+        <div class="instructorphoto"><img src="./Tutorial_files/saining.jpg" id="saining"></div>
+        <div>Saining Xie<br>FAIR</div>
+        </a>
+      </div>
+
+      <div class="instructor">
+        <a href="http://www.rossgirshick.info/">
+        <div class="instructorphoto"><img src="./Tutorial_files/ross.jpg" id="ross"></div>
+        <div>Ross Girshick<br>FAIR</div>
+        </a>
+      </div>
+
+      <div class="instructor">
+        <a href="https://alexander-kirillov.github.io/">
+        <div class="instructorphoto"><img src="./Tutorial_files/alex.jpg" id="alex"></div>
+        <div>Alexander Kirillov<br>FAIR</div>
+        </a>
+      </div>
+
+      <div class="instructor">
+        <a href="http://ppwwyyxx.com/">
+        <div class="instructorphoto"><img src="./Tutorial_files/yuxin.jpg" id="yuxin"></div>
+        <div>Yuxin Wu<br>FAIR</div>
+        </a>
+      </div>
+
+      <br>
+
+      <div class="instructor">
+        <a href="http://feichtenhofer.github.io/">
+        <div class="instructorphoto"><img src="./Tutorial_files/christoph.jpg" id="christoph"></div>
+        <div>Christoph Feichtenhofer<br>FAIR</div>
+        </a>
+      </div>
+
+      <div class="instructor">
+        <div class="instructorphoto"><img src="./Tutorial_files/haoqi.jpg" id="haoqi"></div>
+        <div>Haoqi Fan<br>FAIR</div>
+        </a>
+      </div>
+
+      <div class="instructor">
+        <a href="http://people.eecs.berkeley.edu/~gkioxari/">
+        <div class="instructorphoto"><img src="./Tutorial_files/georgia.jpg" id="georgia"></div>
+        <div>Georgia Gkioxari<br>FAIR</div>
+        </a>
+      </div>
+
+      <br>
+
+      <div class="instructor">
+      <a href="http://cs.stanford.edu/people/jcjohns/">
+        <div class="instructorphoto"><img src="http://cs.stanford.edu/people/jcjohns/images/me-v2.jpg" id="justin"></div>
+        <div>Justin Johnson<br>University of Michigan</div>
+        </a>
+      </div>
+
+      <div class="instructor">
+        <div class="instructorphoto"><img src="./Tutorial_files/nikhila.jpg" id="nikhila"></div>
+        <div>Nikhila Ravi<br>FAIR</div>
+        </a>
+      </div>
+
+      <div class="instructor">
+        <a href="https://pdollar.github.io/">
+        <div class="instructorphoto"><img src="./Tutorial_files/piotr.jpg" id="piotr"></div>
+        <div>Piotr Dollár<br>FAIR</div>
+        </a>
+      </div>
+
+      <div class="instructor">
+        <div class="instructorphoto"><img src="./Tutorial_files/wan-yen.jpg" id="wan-yen"></div>
+        <div>Wan-Yen Lo<br>FAIR</div>
+        </a>
+      </div>
+    </div>
+    <p></p>
+</div>
+
+<br>
+
+<div class="container">
+  <h2>Overview</h2>
+    <p align="justify">
+      The purpose of this tutorial is to discuss popular approaches and recent advancements in the family of visual recognition tasks for different input modalities. We will cover in detail the most recent work on object recognition and scene understanding. Going beyond single images we will show current progress in video (detection and classification in video) and 3D visual recognition (multi-object mesh prediction). Our goal is to show existing connections between the techniques specialized for different input modalities and provide some insights about diverse challenges that each modality presents.
+    </p>
+    <p align="justify">
+      In conjunction with the tutorial we are open-sourcing three new visual recognition systems for images, videos, and 3D respectively. These PyTorch-based systems contain multiple state-of-the-art methods in the corresponding domains. In our tutorial we will pair each research talk with a talk that discusses these codebases sharing best engineering practices and showing details of implementation for each domain. We hope that such pairing will help researchers who are interested primarily in visual recognition to build and benchmark their systems easier. For researchers from different areas we hope to make SOTA recognition systems easy to incorporate in their frameworks.
+    </p>
+</div>
+
+<br>
+
+<div class="container">
+  <h2>Schedule</h2>
+    <div class="schedule">
+      <p><span class="announce_date">09:00 - 09:15</span> <strong> Overview of Visual Recognition Research and OSS (<a href="https://www.dropbox.com/s/bi4wvbzxoqigrav/ICCV19_intro_tutorial.pdf?dl=0">slides</a>)</strong> - <em>Wan-Yen Lo</em> </p>
+      <p><span class="announce_date">09:15 - 10:00</span> <strong> On Connectivity for Representation Learning (<a href="https://www.dropbox.com/s/p43naf2xfctco0v/ICCV2019_connectivety_saining_xie_tutorial.pdf?dl=0">slides</a>)</strong> - <em>Saining Xie</em> </p>
+      <p><span class="announce_date">10:00 - 10:45</span> Coffee Break </p>
+      <p><span class="announce_date">10:45 - 11:45</span> <strong> Object Detection and Instance Segmentation (<a href="https://www.dropbox.com/s/6izllk62dobao9n/ICCV19_generalized_rcnn_tutorial_ross_girshick.pptx?dl=0">slides</a>)</strong> - <em>Ross Girshick</em> </p>
+      <p><span class="announce_date">11:45 - 12:30</span> <strong> Detectron 2 (<a href="https://www.dropbox.com/s/o83efjejx1kfrsy/ICCV19_Detectron2.pdf?dl=0">slides</a>)</strong> - <em>Yuxin Wu</em> </p>
+      <p><span class="announce_date">12:30 - 14:00</span> Lunch Break </p>
+      <p><span class="announce_date">14:00 - 14:45</span> <strong> Mesh Reconstruction in the Wild (<a href="https://www.dropbox.com/s/pbl3itvs30caq7b/ICCV19_mesh_rcnn.pdf?dl=0">slides</a>)</strong> - <em>Georgia Gkioxari / Justin Johnson</em> </p>
+      <p><span class="announce_date">14:45 - 15:30</span> <strong> Torch3d & Mesh R-CNN (<a href="https://www.dropbox.com/s/jbk9g3ievmsjv9j/ICCV19_torch3dtutorial.pdf?dl=0">slides</a>)</strong> - <em>Nikhila Ravi / Georgia Gkioxari</em> </p>
+      <p><span class="announce_date">15:30 - 16:00</span> Coffee Break </p>
+      <p><span class="announce_date">16:00 - 16:45</span> <strong> Recognition in Video (<a href="https://www.dropbox.com/s/syy8842llbxjwin/ICCV19_SlowFast_tutorial.pdf?dl=0">slides</a>)</strong> - <em>Christoph Feichtenhofer</em> </p>
+      <p><span class="announce_date">16:45 - 17:15</span> <strong> Video Recognition Codebase (<a href="https://www.dropbox.com/s/qzaybpmia35fuh7/ICCV19_PySlowFast_tutorial.pptx?dl=0">slides</a>)</strong> - <em>Haoqi Fan</em> </p>
+    </div>
+</div>
+
+<br>
+
+<div class="containersmall">
+  <p>Contact: <a href="mailto:akirillov@fb.com">Alexander Kirillov</a></p>
+</div>
+
+</body></html>
